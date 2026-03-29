@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-# Copyright (C) 2025 ComfyUI-MeshSegmenter Contributors
+# Copyright (C) 2025 ENVLESSComfyUI-MeshSegmenter Contributors
 
 """
 Custom ComfyUI types for SAMesh modular pipeline.
@@ -24,7 +24,7 @@ Dict containing face-to-label mapping:
 """
 
 SAM_MODEL = "SAM_MODEL"
-"""Serializable SAM model config dict (JSON-safe for comfy-env worker boundaries):
+"""Serializable SAM model config dict (JSON-safe for ENVLESS worker boundaries):
 {'type', 'model_name', 'checkpoint_path', 'config_name', 'engine_config', 'precision'}"""
 
 QUAD_MESH_INFO = "QUAD_MESH_INFO"
