@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-# Copyright (C) 2025 ComfyUI-MeshSegmenter Contributors
+# Copyright (C) 2025 ENVLESSComfyUI-MeshSegmenter Contributors
 
 """
 Quad Mesh Exporter Node - Exports PyVista meshes preserving quad topology.
@@ -138,7 +138,7 @@ class QuadMeshExporter:
 
         # Write OBJ file
         with open(obj_path, 'w') as f:
-            f.write(f"# Exported by ComfyUI-MeshSegmenter\n")
+            f.write(f"# Exported by ENVLESSComfyUI-MeshSegmenter\n")
             f.write(f"# Vertices: {len(vertices)}\n")
             if mtl_path:
                 mtl_name = os.path.basename(mtl_path)
@@ -184,7 +184,7 @@ class QuadMeshExporter:
             materials: Dict mapping label -> RGB color (0-1)
         """
         with open(mtl_path, 'w') as f:
-            f.write("# Material file exported by ComfyUI-MeshSegmenter\n\n")
+            f.write("# Material file exported by ENVLESSComfyUI-MeshSegmenter\n\n")
 
             for label, color in materials.items():
                 f.write(f"newmtl segment_{label}\n")

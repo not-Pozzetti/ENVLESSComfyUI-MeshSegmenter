@@ -5,9 +5,9 @@ version = "0.1.2"
 license = {file = "LICENSE"}
 
 [project.urls]
-Repository = "https://github.com/PozzettiAndrea/ComfyUI-MeshSegmenter"
+Repository = "https://github.com/not-pozzetti/ENVLESSComfyUI-MeshSegmenter"
 
 [tool.comfy]
-PublisherId = "pznodes"
+PublisherId = "not-pozzetti"
 DisplayName = "MeshSegmenter"
 Icon = ""

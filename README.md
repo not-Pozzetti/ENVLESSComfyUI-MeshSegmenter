@@ -1,11 +1,15 @@
-# ComfyUI-MeshSegmenter
+# ENVLESSComfyUI-MeshSegmenter
+
+> [!IMPORTANT]
+> These were forks to avoid the abusive ComfyENV code that was added by Mr Pozzetti to thousands of unsuspecting users.
+
 
 <div align="center">
-<a href="https://pozzettiandrea.github.io/ComfyUI-MeshSegmenter/">
-<img src="https://pozzettiandrea.github.io/ComfyUI-MeshSegmenter/gallery-preview.png" alt="Workflow Test Gallery" width="800">
+<a href="https://not-pozzetti.github.io/ENVLESS/ENVLESSComfyUI-MeshSegmenter/">
+<img src="https://not-pozzetti.github.io/ENVLESS/ENVLESSComfyUI-MeshSegmenter/gallery-preview.png" alt="Workflow Test Gallery" width="800">
 </a>
 <br>
-<b><a href="https://pozzettiandrea.github.io/ComfyUI-MeshSegmenter/">View Live Test Gallery →</a></b>
+<b><a href="https://not-pozzetti.github.io/ENVLESS/ENVLESSComfyUI-MeshSegmenter/">View Live Test Gallery →</a></b>
 </div>
 
 Mesh segmentation nodes for ComfyUI using SAMesh and PartField backends. Multiple clustering options available.
@@ -22,7 +26,7 @@ https://github.com/user-attachments/assets/47f73c6c-2301-43a2-b09d-96d92308e715
 
 Install via ComfyUI Manager or clone into `custom_nodes/`:
 ```bash
-git clone https://github.com/PozzettiAndrea/ComfyUI-MeshSegmenter
+git clone https://github.com/not-pozzetti/ENVLESSComfyUI-MeshSegmenter
 ```
 
 ## Nodes
@@ -38,7 +42,7 @@ git clone https://github.com/PozzettiAndrea/ComfyUI-MeshSegmenter
 
 ## Community
 
-Questions or feature requests? Open a [Discussion](https://github.com/PozzettiAndrea/ComfyUI-MeshSegmenter/discussions) on GitHub.
+Questions or feature requests? Open a [Discussion](https://github.com/not-pozzetti/ENVLESSComfyUI-MeshSegmenter/discussions) on GitHub.
 
 Join the [Comfy3D Discord](https://discord.gg/bcdQCUjnHE) for help, updates, and chat about 3D workflows in ComfyUI.
 

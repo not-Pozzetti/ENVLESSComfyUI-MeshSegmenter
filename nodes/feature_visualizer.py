@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-# Copyright (C) 2025 ComfyUI-MeshSegmenter Contributors
+# Copyright (C) 2025 ENVLESSComfyUI-MeshSegmenter Contributors
 
 """
 PartField Feature Visualizer Node - Visualizes PartField features using PCA.
